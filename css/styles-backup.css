@@ -1,0 +1,940 @@
+.body {
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+.navbar {
+    background-color: beige;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 100px;
+    align-items: center;
+    
+}
+.navbar li {
+    margin: 0 15px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    padding: 15px 20px;
+    display: block;
+}
+
+.adonis {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    
+}
+.adonis__logo {
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+
+.perchero__imagen {
+    margin-top: 20px;
+}
+.aprovecha{
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    color: blueviolet;
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+.articulos {
+    display: flex;
+    padding: 10px;
+}
+.articulo__imagen {
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid white;
+    line-height: 100%;
+    text-align: center;
+
+}
+.descripcion {
+    display: flex;
+    padding: 10px;
+}
+.descripcion__articulos {
+    width: 50%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid white;
+    line-height: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    margin-top: -200px;
+
+}
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+.button__articulo {
+    padding: 7px 7px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    position: relative;
+    margin-top: -90px;
+    margin-bottom: 30px;
+    
+}
+.button__articulo:hover {
+    background-color: skyblue;
+}
+.lista {
+    background-color: beige;
+}
+.lista ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 100px;
+}
+.lista li{
+    margin: 0 15px;
+}
+.lista a{
+    color: black;
+    font-family: 'Lucida Sans Regular';
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.coleccion {
+    display: flex;
+    padding: 10px;
+    background-color: skyblue;
+}
+.coleccion__footer {
+    width: 40%;
+    height: 20vh;
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    line-height: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+}
+.iconos {
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+}
+.iconos__redes {
+    width: 20%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid white;
+    line-height: 100%;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+.logo__final {
+    margin-top: -80px;
+}
+
+.titulo__ayuda {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: skyblue;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.titulo__temas {
+    text-align: justify;
+    font-weight: lighter;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+}
+.tarjetasayuda {
+    display: flex;
+    padding: 5px;
+}
+.tarjetas__ayuda1 {
+    width: 30%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid skyblue;
+    line-height: 100%;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 10px;
+
+}
+.tarjetas__ayuda2 {
+    width: 30%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid skyblue;
+    line-height: 100%;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 10px;
+}
+.tarjetas__ayuda3 {
+    width: 30%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid skyblue;
+    line-height: 100%;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 10px;
+}
+.tarjetas__ayuda4 {
+    width: 30%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid skyblue;
+    line-height: 100%;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 10px;
+}
+.ayudatarjetas {
+    display: flex;
+    padding: 10px;
+}
+.ayuda__tarjetas1 {
+    width: 20%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid skyblue;
+    line-height: 100%;
+    margin: 10px 10px;
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 10px;
+}
+.ayuda__tarjetas2 {
+    width: 20%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid skyblue;
+    line-height: 100%;
+    margin: 10px 10px;
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 10px;
+}
+.tiendas__imagen {
+    margin-top: 20px;
+}
+.titulo_tiendas {
+    font-style: italic;
+    font-weight: bold;
+    color: skyblue;
+    font-size: 30px ;
+    margin-top: 100px;
+}
+.tarjetas {
+    display: flex;
+    padding: 10px;
+}
+.tarjetas__tiendas1 {
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    border: 2px solid blueviolet;
+    line-height: 100%;
+    text-align: start;
+    font-family: 'Lucida Sans';
+    margin: 30px 30px;
+    margin-top: 40px;
+    font-size: 10px;
+    
+}
+.tarjetas__tiendas2 {
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    border: 2px solid blueviolet;
+    line-height: 100%;
+    text-align: end;
+    font-family: 'Lucida Sans';
+    margin: 30px 30px;
+    margin-top: 40px;
+    font-size: 10px;
+}
+.tarjetas__tiendas__1 {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.tarjetas__tiendas__2 {
+    margin-top: 60px;
+    margin-right: 20px;
+}
+.tarjetasabajo {
+    display: flex;
+    padding: 10px;
+}
+.tarjetas__abajo1 {
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    border: 2px solid blueviolet;
+    line-height: 100%;
+    text-align: start;
+    font-family: 'Lucida Sans';
+    margin: 30px 30px;
+    margin-top: 40px;
+    font-size: 10px;
+    margin-bottom: 200px;
+}
+.tarjetas__abajo2 {
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    border: 2px solid blueviolet;
+    line-height: 100%;
+    text-align: end;
+    font-family: 'Lucida Sans';
+    margin: 30px 30px;
+    margin-top: 40px;
+    font-size: 10px; 
+    margin-bottom: 200px;
+}
+.tarjetas__abajo__1 {
+    margin-top: 60px;
+    margin-left: 10px
+}
+.tarjetas__abajo__2 {
+    margin-top: 60px;
+    margin-right: 20px;
+}
+.favoritos{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.estalista{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Lucida Sans';
+    color: black;
+    margin-top: 150px;
+    font-size: 15px;
+    margin-bottom: 200px;
+}
+
+.subtituloseguircomprando {
+    text-align: justify;
+    font-weight: lighter;
+    font-family: 'Lucida Sans';
+    font-size: 5px;
+    color: black;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.tarjetacarrito {
+    display: flex;
+    padding: 40px;
+}
+.tarjetacarrito__1 {
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid white;
+    line-height: 100%;
+    text-align: center;
+    margin: 30px 30px;
+    margin-bottom: 30px;
+}
+.tarjetacarrito__2 {
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid white;
+    line-height: 100%;
+    text-align: center;
+    margin: 30px 30px;
+    margin-bottom: 30px;
+}
+.tarjetacarrito__titulo {
+    text-align: justify;
+    color: skyblue;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 'Lucida Sans';
+}
+.tarjetacarrito__parrafo {
+    text-align: justify;
+    color: black;
+    font-size: 13px;
+    font-style: normal;
+
+}
+.tarjetacarrito__button {
+    padding: 10px 15px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 50px;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    margin-right: 20px;
+
+}
+.tarjetacarrito__button:hover {
+    background-color: skyblue;
+}
+.productos{
+    text-align: end;
+    font-weight: lighter;
+    font-style: normal;
+    color: black;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.cuenta{
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.opcion{
+    font-weight: lighter;
+    font-style: italic;
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+
+}
+
+
+@media (min-width:768px) {
+    .navbar {
+        background-color: beige;
+    }
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar li {
+        margin: 0 15px;
+    }
+    .navbar a {
+        color: black;
+        text-decoration: none;
+        font-family: 'Lucida Sans';
+        padding: 5px 5px;
+        display: block;
+        font-size: 13px;
+        
+    }
+    .navbar__derecha {
+        position: relative;
+        left: 100px;
+    }
+    .coleccion {
+        display: flex;
+        padding: 10px;
+        background-color: skyblue;
+    }
+    .coleccion__footer {
+        width: 40%;
+        height: 40vh;
+        background-color: skyblue;
+        border: 2px solid skyblue;
+        line-height: 100%;
+        text-align: center;
+        font-style: italic;
+        font-size: 18px;
+    }
+    .titulo__ayuda {
+        text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: skyblue;
+    margin-top: 100px;
+    font-size: 40px;
+    }
+    .titulo_tiendas {
+        font-style: italic;
+        font-weight: bold;
+        color: skyblue;
+        font-size: 40px ;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    
+}
+
+@media (min-width:1024px) {
+    .navbar {
+        background-color: beige;
+    }
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar li {
+        margin: 0 15px;
+    }
+    .navbar a {
+        color: black;
+        text-decoration: none;
+        font-family: 'Lucida Sans';
+        padding: 15px 20px;
+        display: block;
+    }
+    .navbar__derecha {
+        position: relative;
+        left: 200px;
+    }
+    .Adonis {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        
+    }
+    .adonis__logo {
+        margin-top: 30px;
+        margin-bottom: 30px; 
+    }
+    
+    
+    .perchero__imagen {
+        margin-top: 20px;
+    }
+    .aprovecha{
+        text-align: center;
+        font-style: normal;
+        font-weight: lighter;
+        color: blueviolet;
+        font-size: 60px;
+        margin-top: 40px;
+    
+    }
+    .articulos {
+        display: flex;
+        padding: 120px;
+    }
+    .articulo__imagen {
+        width: 50%;
+        height: 50vh;
+        background-color: white;
+        border: 2px solid white;
+        line-height: 100%;
+        text-align: center;
+    }
+    .descripcion {
+        display: flex;
+        padding: 120px;
+    }
+    .descripcion__articulos {
+        width: 50%;
+        height: 40vh;
+        background-color: white;
+        border: 2px solid white;
+        line-height: 100%;
+        text-align: center;
+        font-family: 'Lucida Sans';
+        margin-top: -250px;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+    
+    }
+    .button__articulo {
+        padding: 20px 30px;
+        background-color: blueviolet;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 60px;
+        transition: background-color 0.3s;
+        font-size: 18px;
+        position: relative;
+        top: -350px;
+    }
+    .button__articulo:hover {
+        background-color: skyblue;
+    }
+    .lista {
+        background-color: beige;
+    }
+    .lista ul{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .lista li{
+        margin: 0 15px;
+    }
+    .lista a{
+        color: black;
+        font-family: 'Lucida Sans Regular';
+        text-decoration: none;
+        padding: 15px 20px;
+        display: block;
+    }
+    .coleccion {
+        display: flex;
+        padding: 10px;
+        background-color: skyblue;
+    }
+    .coleccion__footer {
+        width: 40%;
+        height: 40vh;
+        background-color: skyblue;
+        border: 2px solid skyblue;
+        line-height: 100%;
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+    }
+    .iconos {
+        display: flex;
+        padding: 80px;
+        justify-content: center;
+    }
+    .iconos__redes {
+        width: 5%;
+        height: 5vh;
+        background-color: white;
+        border: 2px solid white;
+        line-height: 100%;
+        text-align: center;
+    }
+    .Logo {
+        display: flex;
+        padding: 30px;
+        justify-content: center;
+    }
+    .logo__final {
+        width: 50%;
+        height: 30vh;
+        background-color: white;
+        border: 2px solid white;
+        line-height: 100%;
+        text-align: center;
+        margin-top: -100px;
+    }
+    
+    .titulo__ayuda {
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        color: skyblue;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+    .titulo__temas {
+        text-align: justify;
+        font-weight: lighter;
+        font-style: italic;
+        margin-left: 20px;
+        font-size: 30px;
+        color: black;
+    }
+    .tarjetasayuda {
+        display: flex;
+        padding: 10px;
+    }
+    .tarjetas__ayuda1 {
+        width: 30%;
+        height: 20vh;
+        background-color: white;
+        border: 2px solid skyblue;
+        line-height: 100%;
+        margin: 30px 30px;
+        text-align: center;
+    
+    }
+    .tarjetas__ayuda2 {
+        width: 30%;
+        height: 20vh;
+        background-color: white;
+        border: 2px solid skyblue;
+        line-height: 100%;
+        margin: 30px 30px;
+        text-align: center;
+    }
+    .tarjetas__ayuda3 {
+        width: 30%;
+        height: 20vh;
+        background-color: white;
+        border: 2px solid skyblue;
+        line-height: 100%;
+        margin: 30px 30px;
+        text-align: center;
+    }
+    .tarjetas__ayuda4 {
+        width: 30%;
+        height: 20vh;
+        background-color: white;
+        border: 2px solid skyblue;
+        line-height: 100%;
+        margin: 30px 30px;
+        text-align: center;
+    }
+    .ayudatarjetas {
+        display: flex;
+        padding: 10px;
+    }
+    .ayuda__tarjetas1 {
+        width: 20%;
+        height: 20vh;
+        background-color: white;
+        border: 2px solid skyblue;
+        line-height: 100%;
+        margin: 30px 30px;
+        text-align: center;
+        margin-bottom: 200px;
+    }
+    .ayuda__tarjetas2 {
+        width: 20%;
+        height: 20vh;
+        background-color: white;
+        border: 2px solid skyblue;
+        line-height: 100%;
+        margin: 30px 30px;
+        text-align: center;
+        margin-bottom: 200px;
+    }
+    .tiendas__imagen {
+        margin-top: 20px;
+    }
+    .titulo_tiendas {
+        font-style: italic;
+        font-weight: bold;
+        color: skyblue;
+        font-size: 60px ;
+        margin-top: 100px;
+    }
+    .tarjetas {
+        display: flex;
+        padding: 10px;
+    }
+    .tarjetas__tiendas1 {
+        width: 50%;
+        height: 30vh;
+        background-color: white;
+        border: 2px solid blueviolet;
+        line-height: 100%;
+        text-align: start;
+        font-family: 'Lucida Sans';
+        margin: 30px 30px;
+        margin-top: 70px;
+        font-size: 20px;
+        
+    }
+    .tarjetas__tiendas2 {
+        width: 50%;
+        height: 30vh;
+        background-color: white;
+        border: 2px solid blueviolet;
+        line-height: 100%;
+        text-align: end;
+        font-family: 'Lucida Sans';
+        margin: 30px 30px;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    .tarjetas__tiendas__1 {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .tarjetas__tiendas__2 {
+        margin-top: 80px;
+        margin-right: 20px;
+    }
+    .tarjetasabajo {
+        display: flex;
+        padding: 10px;
+    }
+    .tarjetas__abajo1 {
+        width: 50%;
+        height: 30vh;
+        background-color: white;
+        border: 2px solid blueviolet;
+        line-height: 100%;
+        text-align: start;
+        font-family: 'Lucida Sans';
+        margin: 30px 30px;
+        margin-top: 70px;
+        font-size: 20px;
+        margin-bottom: 200px;
+    }
+    .tarjetas__abajo2 {
+        width: 50%;
+        height: 30vh;
+        background-color: white;
+        border: 2px solid blueviolet;
+        line-height: 100%;
+        text-align: end;
+        font-family: 'Lucida Sans';
+        margin: 30px 30px;
+        margin-top: 70px;
+        font-size: 20px; 
+        margin-bottom: 200px;
+    }
+    .tarjetas__abajo__1 {
+        margin-top: 80px;
+        margin-left: 20px
+    }
+    .tarjetas__abajo__2 {
+        margin-top: 80px;
+        margin-right: 20px;
+    }
+    .favoritos{
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        color: blueviolet;
+        margin-top: 100px;
+        font-size: 60px;
+    }
+    .estalista{
+        text-align: center;
+        font-weight: lighter;
+        font-family: 'Lucida Sans';
+        color: black;
+        margin-top: 150px;
+        font-size: 20px;
+        margin-bottom: 200px;
+    }
+    
+    .Subtituloseguircomprando {
+        text-align: justify;
+        font-weight: lighter;
+        font-family: 'Lucida Sans';
+        font-size: 10px;
+        color: black;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .tarjetacarrito {
+        display: flex;
+        padding: 40px;
+    }
+    .tarjetacarrito__1 {
+        width: 50%;
+        height: 50vh;
+        background-color: white;
+        border: 2px solid white;
+        line-height: 100%;
+        text-align: center;
+        margin: 30px 30px;
+        margin-bottom: 150px;
+    }
+    .tarjetacarrito__2 {
+        width: 50%;
+        height: 50vh;
+        background-color: white;
+        border: 2px solid white;
+        line-height: 100%;
+        text-align: center;
+        margin: 30px 30px;
+        margin-bottom: 150px;
+    }
+    .tarjetacarrito__titulo {
+        text-align: justify;
+        color: skyblue;
+        font-size: 30px;
+        margin-top: 30px;
+        font-family: 'Lucida Sans';
+    }
+    .tarjetacarrito__parrafo {
+        text-align: justify;
+        color: black;
+        font-size: 20px;
+        font-style: normal;
+    
+    }
+    .tarjetacarrito__button {
+        padding: 20px 40px;
+        background-color: blueviolet;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 80px;
+        transition: background-color 0.3s;
+        font-size: 18px;
+    
+    }
+    .tarjetacarrito__button:hover {
+        background-color: skyblue;
+    }
+    .productos{
+        text-align: end;
+        font-weight: lighter;
+        font-style: normal;
+        color: black;
+        margin-top: 10px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+        margin-left: 100px;
+    }
+    .cuenta{
+        font-weight: bold;
+        font-style: italic;
+        color: blueviolet;
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .opcion{
+        font-weight: lighter;
+        font-style: italic;
+        color: black;
+        text-align: justify;
+        font-size: 30px;
+    
+    }
+    .recibir{
+        margin-bottom: 50px;
+    }
+}
